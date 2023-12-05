@@ -1,0 +1,1482 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 6,
+      "codename": "add_customuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 6,
+      "codename": "change_customuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 6,
+      "codename": "delete_customuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 6,
+      "codename": "view_customuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add attendance",
+      "content_type": 7,
+      "codename": "add_attendance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change attendance",
+      "content_type": 7,
+      "codename": "change_attendance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete attendance",
+      "content_type": 7,
+      "codename": "delete_attendance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view attendance",
+      "content_type": 7,
+      "codename": "view_attendance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add course",
+      "content_type": 8,
+      "codename": "add_course"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change course",
+      "content_type": 8,
+      "codename": "change_course"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete course",
+      "content_type": 8,
+      "codename": "delete_course"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view course",
+      "content_type": 8,
+      "codename": "view_course"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 9,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 9,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 9,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 9,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add staff",
+      "content_type": 10,
+      "codename": "add_staff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change staff",
+      "content_type": 10,
+      "codename": "change_staff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete staff",
+      "content_type": 10,
+      "codename": "delete_staff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view staff",
+      "content_type": 10,
+      "codename": "view_staff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add student",
+      "content_type": 11,
+      "codename": "add_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change student",
+      "content_type": 11,
+      "codename": "change_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete student",
+      "content_type": 11,
+      "codename": "delete_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view student",
+      "content_type": 11,
+      "codename": "view_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add subject",
+      "content_type": 12,
+      "codename": "add_subject"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change subject",
+      "content_type": 12,
+      "codename": "change_subject"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete subject",
+      "content_type": 12,
+      "codename": "delete_subject"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view subject",
+      "content_type": 12,
+      "codename": "view_subject"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add student result",
+      "content_type": 13,
+      "codename": "add_studentresult"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change student result",
+      "content_type": 13,
+      "codename": "change_studentresult"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete student result",
+      "content_type": 13,
+      "codename": "delete_studentresult"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view student result",
+      "content_type": 13,
+      "codename": "view_studentresult"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add notification student",
+      "content_type": 14,
+      "codename": "add_notificationstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change notification student",
+      "content_type": 14,
+      "codename": "change_notificationstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete notification student",
+      "content_type": 14,
+      "codename": "delete_notificationstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view notification student",
+      "content_type": 14,
+      "codename": "view_notificationstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add notification staff",
+      "content_type": 15,
+      "codename": "add_notificationstaff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change notification staff",
+      "content_type": 15,
+      "codename": "change_notificationstaff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete notification staff",
+      "content_type": 15,
+      "codename": "delete_notificationstaff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view notification staff",
+      "content_type": 15,
+      "codename": "view_notificationstaff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add leave report student",
+      "content_type": 16,
+      "codename": "add_leavereportstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change leave report student",
+      "content_type": 16,
+      "codename": "change_leavereportstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete leave report student",
+      "content_type": 16,
+      "codename": "delete_leavereportstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view leave report student",
+      "content_type": 16,
+      "codename": "view_leavereportstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add leave report staff",
+      "content_type": 17,
+      "codename": "add_leavereportstaff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change leave report staff",
+      "content_type": 17,
+      "codename": "change_leavereportstaff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete leave report staff",
+      "content_type": 17,
+      "codename": "delete_leavereportstaff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view leave report staff",
+      "content_type": 17,
+      "codename": "view_leavereportstaff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add feedback student",
+      "content_type": 18,
+      "codename": "add_feedbackstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change feedback student",
+      "content_type": 18,
+      "codename": "change_feedbackstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete feedback student",
+      "content_type": 18,
+      "codename": "delete_feedbackstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view feedback student",
+      "content_type": 18,
+      "codename": "view_feedbackstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+      "name": "Can add feedback staff",
+      "content_type": 19,
+      "codename": "add_feedbackstaff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+      "name": "Can change feedback staff",
+      "content_type": 19,
+      "codename": "change_feedbackstaff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+      "name": "Can delete feedback staff",
+      "content_type": 19,
+      "codename": "delete_feedbackstaff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+      "name": "Can view feedback staff",
+      "content_type": 19,
+      "codename": "view_feedbackstaff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+      "name": "Can add attendance report",
+      "content_type": 20,
+      "codename": "add_attendancereport"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+      "name": "Can change attendance report",
+      "content_type": 20,
+      "codename": "change_attendancereport"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+      "name": "Can delete attendance report",
+      "content_type": 20,
+      "codename": "delete_attendancereport"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+      "name": "Can view attendance report",
+      "content_type": 20,
+      "codename": "view_attendancereport"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+      "name": "Can add admin",
+      "content_type": 21,
+      "codename": "add_admin"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+      "name": "Can change admin",
+      "content_type": 21,
+      "codename": "change_admin"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+      "name": "Can delete admin",
+      "content_type": 21,
+      "codename": "delete_admin"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+      "name": "Can view admin",
+      "content_type": 21,
+      "codename": "view_admin"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+      "name": "Can add membership",
+      "content_type": 22,
+      "codename": "add_membership"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+      "name": "Can change membership",
+      "content_type": 22,
+      "codename": "change_membership"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+      "name": "Can delete membership",
+      "content_type": 22,
+      "codename": "delete_membership"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+      "name": "Can view membership",
+      "content_type": 22,
+      "codename": "view_membership"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "main_app",
+      "model": "customuser"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "main_app",
+      "model": "attendance"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "main_app",
+      "model": "course"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "main_app",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "main_app",
+      "model": "staff"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "main_app",
+      "model": "student"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "main_app",
+      "model": "subject"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "main_app",
+      "model": "studentresult"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+      "app_label": "main_app",
+      "model": "notificationstudent"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+      "app_label": "main_app",
+      "model": "notificationstaff"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+      "app_label": "main_app",
+      "model": "leavereportstudent"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+      "app_label": "main_app",
+      "model": "leavereportstaff"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+      "app_label": "main_app",
+      "model": "feedbackstudent"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+      "app_label": "main_app",
+      "model": "feedbackstaff"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+      "app_label": "main_app",
+      "model": "attendancereport"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+      "app_label": "main_app",
+      "model": "admin"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+      "app_label": "main_app",
+      "model": "membership"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "15rml31h36dj1q7o8ogmsw5wv8q1qotq",
+    "fields": {
+      "session_data": ".eJxVi0sOwjAMBe-SNUK282eJxDki13GUCqgqSleIu1PEhu7em9G8TOH12cu66KOM1ZwMmsM_G1iuOn3Fncep8DwfL9u6nX98d_Zl56VvmU8CESO6HGBQBkcQbMIkQapEShYoNAuSlJsj7zmqMHHL2XlsWs37A-lpNIs:1qNecz:C1VBoYX3BAPzNSYQhk4-RjULI0WGDSd4oUwleDI9uLY",
+      "expire_date": "2023-08-06T19:20:25.275Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "38y4t0m2hoi86goy6g9u0vgwpj6cmrxa",
+    "fields": {
+      "session_data": ".eJxVi0EOgjAQRe_StTHtDJSpSxPP0czQmZSohAisDHcX40Z2_7-X93aZ16XmddZXHoq7OHSnfybc33X8iicPY-ZpOt_29bj--OEcy8pz3bOGFQzBKLQIwKVIiCQl9G3yRN4bauqULFAXo7BaAjBOwoIGiuC2Dxk8NVQ:1qNm8g:JLk4UmTaIkQeeHdACBRrlyN1Ue3KOAnp1ykvDTJyRtU",
+      "expire_date": "2023-08-07T03:21:38.895Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "e8rubezisvd78nb5ark2022mxxv1tned",
+    "fields": {
+      "session_data": ".eJxVi0EOgjAQRe_StTHtDJSpSxPP0czQmZSohAisDHcX40Z2_7-X93aZ16XmddZXHoq7OHSnfybc33X8iicPY-ZpOt_29bj--OEcy8pz3bOGFQzBKLQIwKVIiCQl9G3yRN4bauqULFAXo7BaAjBOwoIGiuC2Dxk8NVQ:1qNkxp:vlkF3DVzIm4oheswN5dYmAFPJPTL7qGiM4qpSnooE4I",
+      "expire_date": "2023-08-07T02:06:21.855Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "erhxoaa7jx1ghfia5txlvxj067tdial7",
+    "fields": {
+      "session_data": ".eJxVi8EKwjAQRP9lzyIJ22wSj4LfETa7CSlqKdaexH83pRd7m3kz7wOJ13dL61JeaVS4AMLpn2WWe5m24cnjlHiez7eeHtedH8rRbLy0rnkXqJaoGJ1h45GMU8nq1WFVKiWzN4LVVwq2P-ogwQpZQjU8cCT4_gAcnjUr:1qL9AY:aI3ljMKSZhsbsXiW77rou2QcotzHBriMpvD8mbNpVY4",
+      "expire_date": "2023-07-30T21:20:42.806Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "fi5oqwx3glk60o22ic015007v52so6xf",
+    "fields": {
+      "session_data": ".eJxVi8EKwjAQRP9lzyIJ22wSj4LfETa7CSlqKdaexH83pRd7m3kz7wOJ13dL61JeaVS4AMLpn2WWe5m24cnjlHiez7eeHtedH8rRbLy0rnkXqJaoGJ1h45GMU8nq1WFVKiWzN4LVVwq2P-ogwQpZQjU8cCT4_gAcnjUr:1qM7vW:nd83uS45yQw0zDcpi8EG14fY7_4zJYHciUan7XmAIOg",
+      "expire_date": "2023-08-02T14:13:14.323Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "h1ar71ygkpxz3qrqq5ryebdgujwijvdf",
+    "fields": {
+      "session_data": ".eJxVi0sOwjAMBe-SNUK282eJxDki13GUCqgqSleIu1PEhu7em9G8TOH12cu66KOM1ZwMmsM_G1iuOn3Fncep8DwfL9u6nX98d_Zl56VvmU8CESO6HGBQBkcQbMIkQapEShYoNAuSlJsj7zmqMHHL2XlsWs37A-lpNIs:1qNbdU:2xpBlTUMTEHQDfUu3F0JDIsXgFVFBJ1ilIDK_kq5YEs",
+      "expire_date": "2023-08-06T16:08:44.611Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "k1w521eu6mj8eqialolwwmd5g5ixb9yo",
+    "fields": {
+      "session_data": ".eJxVi0sOwjAMBe-SNUK282eJxDki13GUCqgqSleIu1PEhu7em9G8TOH12cu66KOM1ZwMmsM_G1iuOn3Fncep8DwfL9u6nX98d_Zl56VvmU8CESO6HGBQBkcQbMIkQapEShYoNAuSlJsj7zmqMHHL2XlsWs37A-lpNIs:1qIa4O:UUzDiqDBkqvj3sEJhQN5kGSj87XOrLC1TwXXAz03Sg8",
+      "expire_date": "2023-07-23T19:27:44.849Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "nuvumaixbxcuewofxs0o6rw2ooul1e52",
+    "fields": {
+      "session_data": ".eJxVi0sOwjAMBe-SNUK282eJxDki13GUCqgqSleIu1PEhu7em9G8TOH12cu66KOM1ZwMmsM_G1iuOn3Fncep8DwfL9u6nX98d_Zl56VvmU8CESO6HGBQBkcQbMIkQapEShYoNAuSlJsj7zmqMHHL2XlsWs37A-lpNIs:1qL6GS:6kcpOu9YwiPnUk7YGyDNH20NIlPEok6BXab6G9BZfKE",
+      "expire_date": "2023-07-30T18:14:36.632Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "q0v1wrsjvz80wmv324hujdutfwctoqxi",
+    "fields": {
+      "session_data": ".eJxVi8EKwjAQRP9lzyIJ22wSj4LfETa7CSlqKdaexH83pRd7m3kz7wOJ13dL61JeaVS4AMLpn2WWe5m24cnjlHiez7eeHtedH8rRbLy0rnkXqJaoGJ1h45GMU8nq1WFVKiWzN4LVVwq2P-ogwQpZQjU8cCT4_gAcnjUr:1qNeDi:x_LzYbWD6DVaGxdEyTwDUad7akRPpOwSXDnPu6AmwYs",
+      "expire_date": "2023-08-06T18:54:18.281Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "w821ivn0vvkq5uijq7jkd7je3ovfrzb0",
+    "fields": {
+      "session_data": ".eJxVi0sOwjAMBe-SNUK282eJxDki13GUCqgqSleIu1PEhu7em9G8TOH12cu66KOM1ZwMmsM_G1iuOn3Fncep8DwfL9u6nX98d_Zl56VvmU8CESO6HGBQBkcQbMIkQapEShYoNAuSlJsj7zmqMHHL2XlsWs37A-lpNIs:1qIay8:8kd2D1eO0NOn1O_uWI6zRtKgaSIjdtd5GZtAlBmdjQ8",
+      "expire_date": "2023-07-23T20:25:20.037Z"
+    }
+  },
+  {
+    "model": "main_app.session",
+    "pk": 1,
+    "fields": {
+      "start_year": "2023-05-20",
+      "end_year": "2024-05-20"
+    }
+  },
+  {
+    "model": "main_app.session",
+    "pk": 3,
+    "fields": {
+      "start_year": "2023-09-01",
+      "end_year": "2023-12-30"
+    }
+  },
+  {
+    "model": "main_app.session",
+    "pk": 15,
+    "fields": {
+      "start_year": "2024-01-01",
+      "end_year": "2024-04-30"
+    }
+  },
+  {
+    "model": "main_app.session",
+    "pk": 16,
+    "fields": {
+      "start_year": "2024-05-01",
+      "end_year": "2024-08-31"
+    }
+  },
+  {
+    "model": "main_app.session",
+    "pk": 18,
+    "fields": {
+      "start_year": "2025-01-01",
+      "end_year": "2025-04-30"
+    }
+  },
+  {
+    "model": "main_app.membership",
+    "pk": 1,
+    "fields": {
+      "session": 15,
+      "membership": "Winter"
+    }
+  },
+  {
+    "model": "main_app.membership",
+    "pk": 2,
+    "fields": {
+      "session": 16,
+      "membership": "Summer"
+    }
+  },
+  {
+    "model": "main_app.membership",
+    "pk": 3,
+    "fields": {
+      "session": 18,
+      "membership": "Winter2025"
+    }
+  },
+  {
+    "model": "main_app.customuser",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$216000$ZD97qpD5F9dx$dgOuR/zQLBJ+FkHzUHEiN+evj2VOM4PpWzAaX3NH7P0=",
+      "last_login": "2023-07-24T03:18:01.574Z",
+      "is_superuser": true,
+      "first_name": "Soham",
+      "last_name": "Goswami",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-07-08T19:10:50.550Z",
+      "email": "offers1sg@gmail.com",
+      "user_type": "1",
+      "gender": "",
+      "profile_pic": "/media/profile-1.jpeg",
+      "address": "",
+      "fcm_token": "",
+      "created_at": "2023-07-08T19:10:50.603Z",
+      "updated_at": "2023-07-24T01:16:12.798Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "main_app.customuser",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$216000$VOXDebgUeczF$GY7wsGVm/yrETFAXC1gmjOrg1s6zm+fJTNM89TqqZE4=",
+      "last_login": "2023-07-24T02:27:22.825Z",
+      "is_superuser": false,
+      "first_name": "Shalin",
+      "last_name": "Shah",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-07-08T19:14:27.273Z",
+      "email": "shalin@email.com",
+      "user_type": "2",
+      "gender": "M",
+      "profile_pic": "/media/profile-2.png",
+      "address": "422, ABC",
+      "fcm_token": "dNvXcBvZ79b8r4pP2T4Xdn:APA91bFnxasDGTQmRarT5kjycQVl4UJGGB7SdFOwGfeDJIzFyNL__Bm_cilUKyFPWg1Ii9quBcmOnBwkOa_hL72AAt78xA_9CJULyKTNWJcnNUPSwSi6HfUM25168RTjfJiJophfZnGP",
+      "created_at": "2023-07-08T19:14:27.384Z",
+      "updated_at": "2023-07-24T02:27:23.465Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "main_app.customuser",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$216000$69o1YFfylIQu$g7ukDZNXZa+CgMXna0mCrmS7flEtbVqyLCc/V/iejZE=",
+      "last_login": "2023-07-24T03:21:38.883Z",
+      "is_superuser": false,
+      "first_name": "Ayush",
+      "last_name": "Prajapati",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-07-08T19:16:12.599Z",
+      "email": "ayush@email.com",
+      "user_type": "3",
+      "gender": "M",
+      "profile_pic": "/media/avatar5_FIDlFAI.png",
+      "address": "422, XYZ AB",
+      "fcm_token": "dNvXcBvZ79b8r4pP2T4Xdn:APA91bFnxasDGTQmRarT5kjycQVl4UJGGB7SdFOwGfeDJIzFyNL__Bm_cilUKyFPWg1Ii9quBcmOnBwkOa_hL72AAt78xA_9CJULyKTNWJcnNUPSwSi6HfUM25168RTjfJiJophfZnGP",
+      "created_at": "2023-07-08T19:16:12.713Z",
+      "updated_at": "2023-07-24T03:25:09.739Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "main_app.customuser",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$216000$stVT5qJoeoD1$KKnHtnG9hRgPrP/FyxGPz/h30yb0f7iX0kvRvrTAhok=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Arjun",
+      "last_name": "Parekh",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-07-16T18:15:39.135Z",
+      "email": "arjun@email.com",
+      "user_type": "3",
+      "gender": "M",
+      "profile_pic": "/media/avatar5.png",
+      "address": "1123, ABC",
+      "fcm_token": "",
+      "created_at": "2023-07-16T18:15:39.296Z",
+      "updated_at": "2023-07-16T18:15:39.340Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "main_app.customuser",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$216000$aSTn2uAhc26Y$AcPwqKmG3EZyV3vp313Kbqv1ZGZX4cg5SJ4th6dxMa4=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Harsh",
+      "last_name": "Prajapati",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-07-16T18:21:42.069Z",
+      "email": "harsh@email.com",
+      "user_type": "3",
+      "gender": "M",
+      "profile_pic": "/media/avatar.png",
+      "address": "600, Brock",
+      "fcm_token": "",
+      "created_at": "2023-07-16T18:21:42.194Z",
+      "updated_at": "2023-07-16T18:23:34.079Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "main_app.customuser",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$216000$4OgBLJ6jib3q$v3pieUw4G/gCSOg9wLkwNX0Gj6LbHRPFUcpywET0luk=",
+      "last_login": "2023-07-23T17:39:39.989Z",
+      "is_superuser": false,
+      "first_name": "Drashti",
+      "last_name": "Koshti",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-07-23T17:39:01.462Z",
+      "email": "drashti@email.com",
+      "user_type": "3",
+      "gender": "F",
+      "profile_pic": "/media/avatar5_3XjcE5A.png",
+      "address": "123, abc",
+      "fcm_token": "",
+      "created_at": "2023-07-23T17:39:01.557Z",
+      "updated_at": "2023-07-23T17:39:01.593Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "main_app.admin",
+    "pk": 1,
+    "fields": {
+      "admin": 1
+    }
+  },
+  {
+    "model": "main_app.course",
+    "pk": 1,
+    "fields": {
+      "name": "Master of Applied Computing",
+      "created_at": "2023-07-08T19:13:43.519Z",
+      "updated_at": "2023-07-16T18:24:08.372Z"
+    }
+  },
+  {
+    "model": "main_app.course",
+    "pk": 2,
+    "fields": {
+      "name": "Course-2",
+      "created_at": "2023-07-08T19:13:48.636Z",
+      "updated_at": "2023-07-08T19:13:48.636Z"
+    }
+  },
+  {
+    "model": "main_app.student",
+    "pk": 1,
+    "fields": {
+      "admin": 3,
+      "course": 1,
+      "session": 1
+    }
+  },
+  {
+    "model": "main_app.student",
+    "pk": 2,
+    "fields": {
+      "admin": 4,
+      "course": 1,
+      "session": 1
+    }
+  },
+  {
+    "model": "main_app.student",
+    "pk": 3,
+    "fields": {
+      "admin": 5,
+      "course": 1,
+      "session": 1
+    }
+  },
+  {
+    "model": "main_app.student",
+    "pk": 4,
+    "fields": {
+      "admin": 6,
+      "course": 1,
+      "session": 16
+    }
+  },
+  {
+    "model": "main_app.staff",
+    "pk": 1,
+    "fields": {
+      "course": 1,
+      "admin": 2
+    }
+  },
+  {
+    "model": "main_app.subject",
+    "pk": 1,
+    "fields": {
+      "name": "Advanced Software Engineering",
+      "staff": 1,
+      "course": 1,
+      "updated_at": "2023-07-16T18:26:24.454Z",
+      "created_at": "2023-07-08T19:14:42.624Z"
+    }
+  },
+  {
+    "model": "main_app.subject",
+    "pk": 2,
+    "fields": {
+      "name": "Subject-2",
+      "staff": 1,
+      "course": 2,
+      "updated_at": "2023-07-16T15:31:18.929Z",
+      "created_at": "2023-07-16T15:31:18.929Z"
+    }
+  },
+  {
+    "model": "main_app.attendance",
+    "pk": 1,
+    "fields": {
+      "session": 1,
+      "subject": 1,
+      "date": "2023-07-16",
+      "created_at": "2023-07-16T18:16:06.432Z",
+      "updated_at": "2023-07-16T18:16:06.432Z"
+    }
+  },
+  {
+    "model": "main_app.attendance",
+    "pk": 2,
+    "fields": {
+      "session": 1,
+      "subject": 2,
+      "date": "2023-05-19",
+      "created_at": "2023-07-16T18:22:06.749Z",
+      "updated_at": "2023-07-16T18:22:06.749Z"
+    }
+  },
+  {
+    "model": "main_app.attendancereport",
+    "pk": 1,
+    "fields": {
+      "student": 1,
+      "attendance": 1,
+      "status": true,
+      "created_at": "2023-07-16T18:16:06.454Z",
+      "updated_at": "2023-07-16T18:16:06.454Z"
+    }
+  },
+  {
+    "model": "main_app.attendancereport",
+    "pk": 2,
+    "fields": {
+      "student": 2,
+      "attendance": 1,
+      "status": true,
+      "created_at": "2023-07-16T18:16:06.467Z",
+      "updated_at": "2023-07-16T18:16:06.467Z"
+    }
+  },
+  {
+    "model": "main_app.attendancereport",
+    "pk": 3,
+    "fields": {
+      "student": 3,
+      "attendance": 2,
+      "status": true,
+      "created_at": "2023-07-16T18:22:06.762Z",
+      "updated_at": "2023-07-16T18:22:06.763Z"
+    }
+  },
+  {
+    "model": "main_app.leavereportstudent",
+    "pk": 1,
+    "fields": {
+      "student": 1,
+      "date": "2023-07-24",
+      "message": "Personal",
+      "status": -1,
+      "created_at": "2023-07-23T23:02:26.753Z",
+      "updated_at": "2023-07-23T23:03:16.814Z"
+    }
+  },
+  {
+    "model": "main_app.leavereportstaff",
+    "pk": 1,
+    "fields": {
+      "staff": 1,
+      "date": "2023-12-12",
+      "message": "Reason",
+      "status": 1,
+      "created_at": "2023-07-17T02:46:11.000Z",
+      "updated_at": "2023-07-17T02:46:56.144Z"
+    }
+  },
+  {
+    "model": "main_app.feedbackstudent",
+    "pk": 1,
+    "fields": {
+      "student": 1,
+      "feedback": "My Feedback Here",
+      "reply": "",
+      "created_at": "2023-07-23T22:57:26.263Z",
+      "updated_at": "2023-07-23T22:57:26.263Z"
+    }
+  },
+  {
+    "model": "main_app.feedbackstaff",
+    "pk": 1,
+    "fields": {
+      "staff": 1,
+      "feedback": "Good Opportunity Presented!",
+      "reply": "",
+      "created_at": "2023-07-24T01:26:19.390Z",
+      "updated_at": "2023-07-24T01:26:19.390Z"
+    }
+  },
+  {
+    "model": "main_app.notificationstaff",
+    "pk": 1,
+    "fields": {
+      "staff": 1,
+      "message": "This is notification!",
+      "created_at": "2023-07-24T02:04:41.977Z",
+      "updated_at": "2023-07-24T02:04:41.977Z"
+    }
+  },
+  {
+    "model": "main_app.notificationstudent",
+    "pk": 1,
+    "fields": {
+      "student": 1,
+      "message": "Please Submit",
+      "created_at": "2023-07-09T19:31:26.240Z",
+      "updated_at": "2023-07-09T19:31:26.240Z"
+    }
+  },
+  {
+    "model": "main_app.studentresult",
+    "pk": 1,
+    "fields": {
+      "student": 1,
+      "subject": 1,
+      "test": 20.0,
+      "exam": 50.0,
+      "created_at": "2023-07-23T19:40:31.750Z",
+      "updated_at": "2023-07-23T19:40:50.727Z"
+    }
+  }
+]
